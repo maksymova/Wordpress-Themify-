@@ -1,0 +1,75 @@
+/* Themify Customize Styling */
+body {	
+	font-family:Roboto;	font-weight:normal;
+ 
+}
+a {	
+	color: #60acdb; 
+}
+h1 {	
+	font-family:Roboto;	font-weight:bold;
+	font-size:76px;
+ 
+}
+h2 {	
+	font-family:Roboto;	font-weight:normal;
+ 
+}
+#headerwrap {	background: none;
+	background-color: rgba(12,12,13,0.87); 
+}
+#header {	
+	color: #ffffff; 
+}
+#headerwrap.fixed-header, .transparent-header #headerwrap.fixed-header {	background: none;
+	background-color: rgba(94,94,94,0.42); 
+}
+#site-logo {	
+	font-family:Roboto;	font-weight:bold;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #ffffff; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #aec9d9; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #9c9797; 
+}
+#main-nav-wrap #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	color: #9fcdd6; 
+}
+#footerwrap {	background: none;
+	background-color: rgba(15,14,14,0.95); 
+}
+#footer {	
+	color: #b0adad; 
+}
+#footer a {	
+	color: #aba6a6; 
+}
+@media screen and (max-width: 680px) { /* Themify Customize Styling */
+#headerwrap {	background: none;
+	background-color: rgba(12,12,13,0.87); 
+}
+#header {	
+	color: #ffffff; 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #ffffff; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #aec9d9; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #9c9797; 
+}
+#main-nav-wrap #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	color: #9fcdd6; 
+}
+ }.mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .mobile_menu_active #headerwrap .sidemenu-on { background: none;
+	background-color: rgba(13,12,12,0.73); }.mobile_menu_active #headerwrap .sidemenu-on a, .mobile_menu_active #headerwrap #main-nav a, .mobile_menu_active #headerwrap #main-nav ul a { 
+	color: #ffffff; }.mobile_menu_active #headerwrap .sidemenu-on a:hover, .mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover { 
+	color: #c0c6cc; }.header-leftpane.mobile_menu_active #pagewrap.site #headerwrap #menu-icon, .header-rightpane.mobile_menu_active #pagewrap.site #headerwrap #menu-icon, #headerwrap #menu-icon { 
+	color: #ffffff; }
